@@ -11,7 +11,7 @@ export default function WebsitePage() {
   useEffect(() => {
     const fetchQuotations = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/quotations");
+        const res = await axios.get("https://app.aspireths.com/api/quotations");
         setQuotations(Array.isArray(res.data) ? res.data : []);
       } catch (err) {
         console.error("Error fetching website quotations:", err);

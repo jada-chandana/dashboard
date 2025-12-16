@@ -21,7 +21,7 @@ export default function Sidebar() {
 
       <nav>
         <NavLink
-          to="/"
+          to="/dashboard"
           end
           className={({ isActive }) =>
             `nav-item ${isActive ? "active" : ""}`

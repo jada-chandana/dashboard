@@ -13,7 +13,7 @@ export default function App() {
 
       {/* Protected pages - use Layout */}
       <Route path="/" element={<Layout />}>
-        <Route path="dashboard" element={<DashboardOverview />} />
+        <Route path="dashboard" element={<Dashboard />} />
         <Route path="/website" element={<WebsitePage />} />
         <Route path="app" element={<AppPage />} />
       </Route>
